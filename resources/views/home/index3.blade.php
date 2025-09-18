@@ -1,5 +1,5 @@
 @extends('layouts.layoutStyleThree')
-@section('title', 'Home Three || tecture || tecture Laravel Template')
+@section('title', 'Kreatif Digital Dinamik - Home')
 @push('styles')
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/contact.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/module-css/before-after.css') }}">
@@ -13,32 +13,7 @@
 
     <!--Main Slider Three Start-->
     <section class="main-slider-three">
-        <ul class="list-unstyled main-slider-three__contact-list">
-            <li>
-                <div class="icon">
-                    <i class="fas fa-envelope"></i>
-                </div>
-                <div class="text">
-                    <p><a href="mailto:business@kreatifdigitaldinamik.com">business@kreatifdigitaldinamik.com</a></p>
-                </div>
-            </li>
-            <li>
-                <div class="icon">
-                    <i class="fas fa-phone"></i>
-                </div>
-                <div class="text">
-                    <p><a href="tel:0012346823705"> 00 (1234) 682 3705</a></p>
-                </div>
-            </li>
-            <li>
-                <div class="main-slider-three__social">
-                    <a href="#"><span class="fab fa-facebook-f"></span></a>
-                    <a href="#"><span class="fab fa-twitter"></span></a>
-                    <a href="#"><span class="fab fa-vine"></span></a>
-                    <a href="#"><span class="fab fa-instagram"></span></a>
-                </div>
-            </li>
-        </ul>
+        
         <div class="container-full">
             <div class="main-slider-three__slider">
                 <div class="row">
@@ -47,49 +22,67 @@
                         <div class="main-slider-three__left">
                             <div class="swiper-container" id="main-slider-three__thumb">
                                 <div class="swiper-wrapper">
+                                    <!-- Slide 1 -->
                                     <div class="swiper-slide">
                                         <div class="main-slider-three__content-one">
-                                            <h2 class="main-slider-three__title-one">Interior</h2>
-                                            <h3 class="main-slider-three__title-two">Design Make Dream</h3>
-                                            <p class="main-slider-three__price">$500</p>
+                                            <h2 class="main-slider-three__title-one">Rakaman Momen</h2>
+                                            <h3 class="main-slider-three__title-two">Fotografi & Videografi</h3>
                                             <div class="main-slider-three__btn-box">
-                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">Get
-                                                    In
-                                                    Touch
-                                                    <span class="icon-up-right-arrow"></span> </a>
+                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">
+                                                    Mula Bersama Kami
+                                                    <span class="icon-up-right-arrow"></span>
+                                                </a>
                                             </div>
-                                            <h3 class="main-slider-three__title-three">Design</h3>
+                                            <h3 class="main-slider-three__title-three">Visual Kreatif</h3>
                                         </div>
-                                    </div><!-- /.swiper-slide -->
+                                    </div>
+
+                                    <!-- Slide 2 -->
                                     <div class="swiper-slide">
                                         <div class="main-slider-three__content-one">
-                                            <h2 class="main-slider-three__title-one">Interior</h2>
-                                            <h3 class="main-slider-three__title-two">Living Room Design</h3>
-                                            <p class="main-slider-three__price">$800</p>
+                                            <h2 class="main-slider-three__title-one">Identiti Visual</h2>
+                                            <h3 class="main-slider-three__title-two">Rekaan Grafik Kreatif</h3>
                                             <div class="main-slider-three__btn-box">
-                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">Get
-                                                    In
-                                                    Touch
-                                                    <span class="icon-up-right-arrow"></span> </a>
+                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">
+                                                    Mula Bersama Kami
+                                                    <span class="icon-up-right-arrow"></span>
+                                                </a>
                                             </div>
-                                            <h3 class="main-slider-three__title-three">Design</h3>
+                                            <h3 class="main-slider-three__title-three">Rekaan Unik</h3>
                                         </div>
-                                    </div><!-- /.swiper-slide -->
+                                    </div>
+
+                                    <!-- Slide 3 -->
                                     <div class="swiper-slide">
                                         <div class="main-slider-three__content-one">
-                                            <h2 class="main-slider-three__title-one">Interior</h2>
-                                            <h3 class="main-slider-three__title-two">Stunning Interior Design</h3>
-                                            <p class="main-slider-three__price">$500</p>
+                                            <h2 class="main-slider-three__title-one">Strategi Kandungan</h2>
+                                            <h3 class="main-slider-three__title-two">Pengurusan Media Sosial</h3>
                                             <div class="main-slider-three__btn-box">
-                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">Get
-                                                    In
-                                                    Touch
-                                                    <span class="icon-up-right-arrow"></span> </a>
+                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">
+                                                    Mula Bersama Kami
+                                                    <span class="icon-up-right-arrow"></span>
+                                                </a>
                                             </div>
-                                            <h3 class="main-slider-three__title-three">Design</h3>
+                                            <h3 class="main-slider-three__title-three">Media Dinamik</h3>
+                                        </div>
+                                    </div>
+
+                                    <!-- Slide 4 -->
+                                    <div class="swiper-slide">
+                                        <div class="main-slider-three__content-one">
+                                            <h2 class="main-slider-three__title-one">Kempen Digital</h2>
+                                            <h3 class="main-slider-three__title-two">Strategi Pemasaran Digital</h3>
+                                            <div class="main-slider-three__btn-box">
+                                                <a href="{{ route('contact') }}" class="thm-btn main-slider-three__btn">
+                                                    Mula Bersama Kami
+                                                    <span class="icon-up-right-arrow"></span>
+                                                </a>
+                                            </div>
+                                            <h3 class="main-slider-three__title-three">Hasil Maksimum</h3>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                             <!-- /#main-slider-three__Nav -->
                             <div class="main-slider-three__nav">
@@ -162,20 +155,29 @@
                 <div class="col-xl-6">
                     <div class="about-three__left">
                         <div class="section-title text-left sec-title-animation animation-style2">
-                            <h2 class="section-title__title title-animation">Welcome To About Us</h2>
+                            <h2 class="section-title__title title-animation">Kreatif Digital Dinamik (KDD) – Your SME
+                                Marketing Partner</h2>
                         </div>
-                        <p class="about-three__text">Arrangements are made to transport cargo by sea to meet
-                            customers’ international transpor tation needs.the spaces and places we imagine and
-                            envision for our clients. To those wanting to make an impact with design.</p>
+                        <p class="about-three__text">Kami membantu syarikat dan perniagaan membina jenama yang lebih kuat
+                            melalui media dan pemasaran digital. Fokus kami adalah memastikan setiap projek yang dijalankan
+                            memberi kesan jangka panjang, bukan sekadar hasil sekali lalu.
+                        </p>
+                        <br>
+                        <p class="about-three__text">
+                            Kami berpengalaman bekerjasama dengan pelbagai organisasi dan jenama seperti PNB, SME
+                            Bank, Attana Hotel, Johorean Comrade, Al-Ikhsan, Madad Dakwah Centre, Protasa Properties,
+                            Mergong Tiling Sdn. Bhd., Esthetic Medical Solution, Dr Meow, dan PERKIM. Hasilnya, kami
+                            membuktikan kemampuan untuk menghasilkan foto, video, dan strategi pemasaran yang
+                            konsisten serta memberi nilai kepada klien.</p>
                         <ul class="about-three__points-list list-unstyled">
                             <li>
                                 <div class="icon">
                                     <span class="icon-workstations"></span>
                                 </div>
                                 <div class="content">
-                                    <h3>Evolve Space Designs</h3>
-                                    <p>It is a long established fact that a reader will be distracted by<br> the
-                                        readable hkljklkl.</p>
+                                    <h3>Fotografi & videografi profesional</h3>
+                                    <p>Perkhidmatan kami mengutamakan kreativiti, kualiti, dan kepuasan pelanggan dalam
+                                        setiap projek.</p>
                                 </div>
                             </li>
                             <li>
@@ -183,14 +185,16 @@
                                     <span class="icon-social-media-marketing"></span>
                                 </div>
                                 <div class="content">
-                                    <h3>Eden Home Styling</h3>
-                                    <p>It is a long established fact that a reader will be distracted by <br>the
-                                        readable hkljklkl.</p>
+                                    <h3>Rekaan grafik kreatif</h3>
+                                    <p>
+                                    <p>Kami menghasilkan rekaan grafik yang kreatif dan berkualiti untuk memenuhi keperluan
+                                        jenama anda.</p>
+                                    </p>
                                 </div>
                             </li>
                         </ul>
                         <div class="about-three__btn-box">
-                            <a href="{{ route('about') }}" class="thm-btn about-three__btn">More Details <span
+                            <a href="{{ route('about') }}" class="thm-btn about-three__btn">Lebih Lanjut<span
                                     class="icon-up-right-arrow"></span> </a>
                         </div>
                     </div>
@@ -225,35 +229,35 @@
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style1">
-                <h2 class="section-title__title title-animation">How It Works</h2>
+                <h2 class="section-title__title title-animation">Apa Yang Kami Lakukan</h2>
             </div>
             <div class="row">
                 <div class="col-xl-4 col-lg-4">
-                    <div class="how-it-work__single">
+                    <div class="how-it-work__single how-it-work__single-3">
                         <div class="how-it-work__count"></div>
-                        <h3 class="how-it-work__title">INTERRIOR DESIGN</h3>
-                        <p class="how-it-work__text">Mrittik Architects is a full-service design<br> firm providing
-                            ,
-                            master planning, urban<br> design,</p>
+                        <h3 class="how-it-work__title">FOTOGRAFI & VIDEOGRAFI PROFESIONAL</h3>
+                        <p class="how-it-work__text">Merakam detik berharga anda dengan hasil fotografi dan videografi yang
+                            berkualiti tinggi dan penuh kreativiti.</p>
                         <div class="how-it-work__icon">
-                            <span class="icon-staircase"></span>
+                            <span class="icon-social-media-marketing"></span>
                         </div>
                     </div>
                     <div class="how-it-work__single">
                         <div class="how-it-work__count"></div>
-                        <h3 class="how-it-work__title">URBAN DESIGN</h3>
-                        <p class="how-it-work__text">Mrittik Architects is a full-service design<br> firm providing
-                            ,
-                            master planning, urban<br> design,</p>
+                        <h3 class="how-it-work__title">STRATEGI PEMASARAN DIGITAL</h3>
+                        <p class="how-it-work__text">Membangunkan strategi pemasaran digital yang berkesan untuk
+                            meningkatkan capaian, penglibatan, dan jualan anda.</p>
+
                         <div class="how-it-work__icon">
-                            <span class="icon-plant"></span>
+                            <span class="icon-customer-service"></span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4">
                     <div class="how-it-work__img-box">
                         <div class="how-it-work__img">
-                            <img src="{{ asset('assets/images/resources/how-it-work-img-1.jpg') }}" alt="">
+                            <img src="{{ asset('assets/images/artworks/laptop-with-camera-glasses.jpg') }}"
+                                alt="">
                         </div>
                         <div class="how-it-work__icon-2">
                             <span class="icon-globe"></span>
@@ -263,26 +267,25 @@
                 <div class="col-xl-4 col-lg-4">
                     <div class="how-it-work__single how-it-work__single-2">
                         <div class="how-it-work__count"></div>
-                        <h3 class="how-it-work__title">LANDSCAPE DESIGN</h3>
-                        <p class="how-it-work__text">Mrittik Architects is a full-service design<br> firm providing
-                            ,
-                            master planning, urban<br> design,</p>
+                        <h3 class="how-it-work__title">PENGURUSAN MEDIA SOSIAL HARIAN</h3>
+                        <p class="how-it-work__text">Mengurus dan mengemas kini platform media sosial anda setiap hari
+                            untuk memastikan jenama sentiasa aktif dan relevan.</p>
                         <div class="how-it-work__icon">
-                            <span class="icon-vacuum-cleaner"></span>
+                            <span class="icon-campaign"></span>
                         </div>
                     </div>
                     <div class="how-it-work__single how-it-work__single-2">
                         <div class="how-it-work__count"></div>
-                        <h3 class="how-it-work__title">HOTEL DESIGN</h3>
-                        <p class="how-it-work__text">Mrittik Architects is a full-service design<br> firm providing
-                            ,
-                            master planning, urban<br> design,</p>
+                        <h3 class="how-it-work__title">REKAAN GRAFIK KREATIF</h3>
+                        <p class="how-it-work__text">Mencipta rekaan grafik yang inovatif untuk menyerlahkan identiti
+                            visual dan jenama anda.</p>
                         <div class="how-it-work__icon">
                             <span class="icon-workstations"></span>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
     <!--How It Work End -->
@@ -393,18 +396,29 @@
         <div class="sliding-text-two__wrap">
             <ul class="sliding-text-two__list list-unstyled marquee_mode">
                 <li>
-                    <h2 data-hover="Interior Design" class="sliding-text-two__title">Interior Design</h2>
+                    <h2 data-hover="Fotografi & Videografi" class="sliding-text-two__title">Fotografi & Videografi</h2>
                 </li>
                 <li>
-                    <h2 data-hover="luxury homes" class="sliding-text-two__title">luxury homes</h2>
+                    <h2 data-hover="Rekaan Grafik Kreatif" class="sliding-text-two__title">Rekaan Grafik Kreatif</h2>
                 </li>
                 <li>
-                    <h2 data-hover="construction simulator" class="sliding-text-two__title">construction simulator
+                    <h2 data-hover="Pengurusan Media Sosial" class="sliding-text-two__title">Pengurusan Media Sosial</h2>
+                </li>
+                <li>
+                    <h2 data-hover="Strategi Pemasaran Digital" class="sliding-text-two__title">Strategi Pemasaran Digital
+                    </h2>
+                </li>
+                <li>
+                    <h2 data-hover="Content Marketing" class="sliding-text-two__title">Content Marketing</h2>
+                </li>
+                <li>
+                    <h2 data-hover="Branding & Identiti Visual" class="sliding-text-two__title">Branding & Identiti Visual
                     </h2>
                 </li>
             </ul>
         </div>
     </section>
+
     <!-- Sliding Text Two End -->
 
     <!--Projects Three Start-->
@@ -413,8 +427,8 @@
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="projects-three__wrapper">
             <div class="section-title text-center sec-title-animation animation-style1">
-                <h2 class="section-title__title title-animation">We Elevate Your Brand's <br>
-                    Daring Dedication.</h2>
+                <h2 class="section-title__title title-animation">Dedikasi Kami, <br>
+                    Impak Digital Anda.</h2>
             </div>
             <div class="projects-three__carousel owl-theme owl-carousel">
                 <!--Projects Three Single Start-->
@@ -569,7 +583,7 @@
     <!--Projects Three End-->
 
     <!--Before And After Start -->
-    <section class="before-and-after">
+    {{-- <section class="before-and-after">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
@@ -587,7 +601,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!--Before And After End -->
 
     <!-- Testimonial One Start -->
@@ -869,8 +883,8 @@
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
             <div class="section-title text-center sec-title-animation animation-style1">
-                <h2 class="section-title__title title-animation">Where Inovation Meet <br>
-                    Interior Design</h2>
+                <h2 class="section-title__title title-animation">Bersama <br>
+                    Kami Hasilkan Inspirasi</h2>
             </div>
             <div class="row">
                 <!--Team One Single Start -->
@@ -936,7 +950,7 @@
     <!--Team One End -->
 
     <!-- Blog One Start -->
-    <section class="blog-one blog-three">
+    {{-- <section class="blog-one blog-three">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
@@ -1036,7 +1050,7 @@
                 <!-- Blog One Single End -->
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Blog One End -->
 
     <x-footer.footerStyleOne />

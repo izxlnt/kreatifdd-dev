@@ -19,10 +19,12 @@
     position: relative;
     display: block;
     margin-bottom: 70px;
+    padding-right: 80px;
 }
 
 .how-it-work__single-2 {
     padding-left: 120px;
+    padding-right: 0;
 }
 
 .how-it-work__count {

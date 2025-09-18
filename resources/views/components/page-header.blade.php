@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="page-header__inner">
                     <div class="page-header__title-box">
-                        <p>Business Models you can Consider</p>
+                        <p>Membawa Idea Menjadi Realiti</p>
                         <h3>{{$title ?? 'Welcome'}}</h3>
                     </div>
                     <div class="thm-breadcrumb__box">

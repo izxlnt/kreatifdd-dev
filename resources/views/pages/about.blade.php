@@ -11,7 +11,7 @@
 
 @section('content')
     <x-strickyHeaderTwo />
-    <x-page-header title="About Us" subtitle="About Us" />
+    <x-page-header title="Tentang Kami" subtitle="Tentang Kami" />
 
 
         <!--Page Header End-->
@@ -21,8 +21,8 @@
             <div class="section-shape-1" style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
             <div class="container">
                 <div class="section-title text-center sec-title-animation animation-style2">
-                    <h2 class="section-title__title title-animation">Elevate Your Spac Transform Your <br>
-                        Home With Expert Design</h2>
+                    <h2 class="section-title__title title-animation">Dari Idea ke Inspirasi <br>
+                        Dari Digital ke Realiti</h2>
                 </div>
                 <div class="row">
                     <!--Services Four Single Start-->
