@@ -2,10 +2,10 @@
     <li @if (request()->is(['index'])) class="current" @endif>
         <a href="{{ route('index') }}">Home</a>
     </li>
-    {{-- <li @if (request()->is(['about'])) class="current" @endif>
+    <li @if (request()->is(['about'])) class="current" @endif>
         <a href="{{ route('about') }}">About Us</a>
-    </li> --}}
-    {{-- <li class="dropdown @if (request()->is(['team', 'team-details', 'testimonials', 'faq', '404', 'coming-soon'])) current @endif">
+    </li>
+    <li class="dropdown @if (request()->is(['team', 'team-details', 'testimonials', 'faq', '404', 'coming-soon'])) current @endif">
         <a href="#">Pages</a>
         <ul>
             <li><a href="{{ route('team') }}">Team</a></li>
@@ -53,7 +53,7 @@
             <li><a href="{{ route('blog-2') }}">Blog Style2</a></li>
             <li><a href="{{ route('blog-details') }}">Blog Details</a></li>
         </ul>
-    </li> --}}
+    </li>
     <li @if (request()->is(['contact'])) class="current" @endif>
         <a href="{{ route('contact') }}">Contact</a>
     </li>

@@ -82,7 +82,7 @@
                               </ul>
                           </div>
                       </div>
-                      {{-- <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                      <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                           <div class="footer-widget__column footer-widget__instagram">
                               <div class="footer-widget__title-box">
                                   <h3 class="footer-widget__title">Instagram</h3>
@@ -132,7 +132,7 @@
                                   </li>
                               </ul>
                           </div>
-                      </div> --}}
+                      </div>
                   </div>
               </div>
           </div>
@@ -142,9 +142,9 @@
                       <p class="site-footer__bottom-text">© {{ date('Y') }}
                           Copyright <a href="#">Kreatif Digital Dinamik.</a> | All rights reserved</p>
                       <ul class="list-unstyled site-footer__bottom-menu">
-                          {{-- <li><a href="{{ route('about') }}">Privacy & Policy</a></li>
+                          <li><a href="{{ route('about') }}">Privacy & Policy</a></li>
                           <li><a href="{{ route('about') }}">Terms of use</a></li>
-                          <li><a href="{{ route('about') }}">Cookie Policy</a></li> --}}
+                          <li><a href="{{ route('about') }}">Cookie Policy</a></li>
                       </ul>
                   </div>
               </div>

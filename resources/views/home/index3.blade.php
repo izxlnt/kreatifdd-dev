@@ -299,7 +299,7 @@
     <!--How It Work End -->
 
     <!--Services Three Start -->
-    {{-- <section class="services-three">
+    <section class="services-three">
         <div class="services-three__bg"
             style="background-image: url({{ asset('assets/images/shapes/site-footer-shape-1.jpg') }});"></div>
         <div class="section-shape-1"
@@ -394,7 +394,7 @@
                 <!--Services Three Single End -->
             </div>
         </div>
-    </section> --}}
+    </section>
     <!--Services Three End -->
 
     <!-- Sliding Text Two Start -->
@@ -430,7 +430,7 @@
     <!-- Sliding Text Two End -->
 
     <!--Projects Three Start-->
-    {{-- <section class="projects-three">
+    <section class="projects-three">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="projects-three__wrapper">
@@ -587,11 +587,11 @@
                 <!--Projects Three Single End-->
             </div>
         </div>
-    </section> --}}
+    </section>
     <!--Projects Three End-->
 
     <!--Before And After Start -->
-    {{-- <section class="before-and-after">
+    <section class="before-and-after">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
@@ -609,11 +609,11 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
     <!--Before And After End -->
 
     <!-- Testimonial One Start -->
-    {{-- <section class="testimonial-one">
+    <section class="testimonial-one">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
@@ -882,11 +882,11 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
     <!-- Testimonial One End -->
 
     <!--Team One Start -->
-    {{-- <section class="team-one">
+    <section class="team-one">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
@@ -954,11 +954,11 @@
                 <!--Team One Single End -->
             </div>
         </div>
-    </section> --}}
+    </section>
     <!--Team One End -->
 
     <!-- Blog One Start -->
-    {{-- <section class="blog-one blog-three">
+    <section class="blog-one blog-three">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
@@ -1058,7 +1058,7 @@
                 <!-- Blog One Single End -->
             </div>
         </div>
-    </section> --}}
+    </section>
     <!-- Blog One End -->
 
     <x-footer.footerStyleOne />
