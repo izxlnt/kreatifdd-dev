@@ -1,6 +1,6 @@
  <!--Page Header Start-->
         <section class="page-header">
-            <div class="page-header__bg" style="background-image: url({{ asset('assets/images/backgrounds/page-header-bg.jpg') }});">
+            <div class="page-header__bg" style="background-image: url({{ asset('assets/images/artworks/building.jpg') }});">
             </div>
             <div class="container">
                 <div class="page-header__inner">

@@ -20,9 +20,9 @@ try {
 			// To mail
 			$mail->addAddress($senderEmail);
 			// Content
-			$mail->Subject = 'Newsletter Subscription';
+			$mail->Subject = 'Langganan Newsletter';
 			$mail->Body = $template;
-			$mail->AltBody = 'Thanks for subscribing to our newsletter.';
+			$mail->AltBody = 'Terima kasih kerana melanggan newsletter kami.';
 			$mail->send();
 
 
@@ -33,18 +33,15 @@ try {
 
 
 			$mail->addAddress(Env::get('ADMIN_EMAIL')); // Add admin email
-			// Add CC or BCC if needed
-			// $mail->addCC('name@example.com', 'name');
-			// $mail->addBCC('name@example.com', 'name');
 			// Content
-			$mail->Subject = 'New Subscriber Added';
+			$mail->Subject = 'Langganan Baru Ditambah';
 			$mail->Body = $template;
-			$mail->AltBody = 'New Newsletter Subscription';
+			$mail->AltBody = 'Langganan newsletter baru telah diterima.';
 			$mail->send();
 
 
 			echo "<div class='alert alert-success' role='alert'>
-        Thanks for contacting us.
+        Terima kasih kerana menghubungi kami.
       </div>";
 
 		} else {
@@ -55,13 +52,10 @@ try {
 			$template = str_replace('{{message}}', $message, $template);
 
 			$mail->addAddress($senderEmail, $name);
-			// Add CC or BCC if needed
-			// $mail->addCC('name@example.com', 'name');
-			// $mail->addBCC('name@example.com', 'name');
 			// Content
-			$mail->Subject = 'Thanks for contacting us.';
+			$mail->Subject = 'Terima kasih kerana menghubungi kami.';
 			$mail->Body = $template;
-			$mail->AltBody = 'We have received your message and will get back to you as soon as possible';
+			$mail->AltBody = 'Kami telah menerima mesej anda dan akan membalas secepat mungkin.';
 			$mail->send();
 
 			// Send to admin
@@ -75,45 +69,34 @@ try {
 				$template = str_replace('{{phone}}', $phone, $template);
 				$template = str_replace('class="phone-hide"', 'class=""', $template);
 			}
-			//  else {
-			// 	$template = str_replace('{{phone}}', 'N/A', $template);
-			// }
 			if (!empty($subject)) {
 				$template = str_replace('{{subject}}', $subject, $template);
 				$template = str_replace('class="subject-hide"', 'class=""', $template);
 			}
-			//  else {
-			// 	$template = str_replace('{{subject}}', 'N/A', $template);
-			// }
-
-
 
 			$mail->addAddress(Env::get('ADMIN_EMAIL')); // Add admin email
-			// Add CC or BCC if needed
-			// $mail->addCC('name@example.com', 'name');
-			// $mail->addBCC('name@example.com', 'name');
 			// Content
-			$mail->Subject = 'New Contact Form Submission';
+			$mail->Subject = 'Kiriman Borang Hubungan Baru';
 			$mail->Body = $template;
-			$mail->AltBody = 'A new contact form submission has been received.';
+			$mail->AltBody = 'Satu kiriman borang hubungan baru telah diterima.';
 			$mail->send();
 
 			echo "<div class='alert alert-success' role='alert'>
-        Thanks for contacting us.
+        Terima kasih kerana menghubungi kami.
       </div>";
 
 		}
 
 	} else {
 		echo "<div class='alert alert-danger' role='alert'>
-        Please fill in all required fields.
+        Sila isi semua ruangan yang diperlukan.
       </div>";
 
 	}
 
 } catch (Exception $e) {
 	echo "<div class='alert alert-danger' role='alert'>
-        Message could not be sent. Mailer Error: {$mail->ErrorInfo}
+        Mesej tidak dapat dihantar. Ralat Penghantar: {$mail->ErrorInfo}
       </div>";
 
 }

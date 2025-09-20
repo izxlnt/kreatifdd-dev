@@ -104,7 +104,7 @@
                                         <div class="swiper-slide">
                                             <div class="main-slider-three__img-box">
                                                 <div class="main-slider-three__img">
-                                                    <img src="{{ asset('assets/images/resources/main-slider-three-1-1.jpg') }}"
+                                                    <img src="{{ asset('assets/images/artworks/front-view-woman.jpg') }}"
                                                         alt="">
                                                 </div>
                                             </div>
@@ -112,7 +112,7 @@
                                         <div class="swiper-slide">
                                             <div class="main-slider-three__img-box">
                                                 <div class="main-slider-three__img">
-                                                    <img src="{{ asset('assets/images/resources/main-slider-three-1-2.jpg') }}"
+                                                    <img src="{{ asset('assets/images/artworks/creative-ideas-identity.jpg') }}"
                                                         alt="">
                                                 </div>
                                             </div>
@@ -120,7 +120,15 @@
                                         <div class="swiper-slide">
                                             <div class="main-slider-three__img-box">
                                                 <div class="main-slider-three__img">
-                                                    <img src="{{ asset('assets/images/resources/main-slider-three-1-3.jpg') }}"
+                                                    <img src="{{ asset('assets/images/artworks/social-media-marketing.jpg') }}"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </div><!-- /.swiper-slide -->
+                                        <div class="swiper-slide">
+                                            <div class="main-slider-three__img-box">
+                                                <div class="main-slider-three__img">
+                                                    <img src="{{ asset('assets/images/artworks/map-lying.jpg') }}"
                                                         alt="">
                                                 </div>
                                             </div>
@@ -202,8 +210,8 @@
                 <div class="col-xl-6">
                     <div class="about-three__right wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
                         <div class="about-three__img">
-                            <img src="{{ asset('assets/images/resources/about-three-img-1.jpg') }}" alt="">
-                            <div class="about-three__experience-box">
+                            <img src="{{ asset('assets/images/artworks/dji_fly.jpg') }}" alt="">
+                            {{-- <div class="about-three__experience-box">
                                 <h3 class="about-three__experience-title">Funfacts
                                     in Great<br> Numbers</h3>
                                 <div class="about-three__experience">
@@ -213,7 +221,7 @@
                                         <h3 class="count-text" data-stop="25" data-speed="1500">00</h3>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -605,7 +613,7 @@
     <!--Before And After End -->
 
     <!-- Testimonial One Start -->
-    <section class="testimonial-one">
+    {{-- <section class="testimonial-one">
         <div class="section-shape-1"
             style="background-image: url({{ asset('assets/images/shapes/section-shape-1.png') }});"></div>
         <div class="container">
@@ -874,7 +882,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Testimonial One End -->
 
     <!--Team One Start -->
