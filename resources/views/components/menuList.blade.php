@@ -2,9 +2,9 @@
     <li @if (request()->is(['index'])) class="current" @endif>
         <a href="{{ route('index') }}">Home</a>
     </li>
-    <li @if (request()->is(['about'])) class="current" @endif>
+    {{-- <li @if (request()->is(['about'])) class="current" @endif>
         <a href="{{ route('about') }}">About Us</a>
-    </li>
+    </li> --}}
     {{-- <li class="dropdown @if (request()->is(['team', 'team-details', 'testimonials', 'faq', '404', 'coming-soon'])) current @endif">
         <a href="#">Pages</a>
         <ul>
